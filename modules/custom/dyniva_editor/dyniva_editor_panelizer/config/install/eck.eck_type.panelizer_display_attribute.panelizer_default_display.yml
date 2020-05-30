@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.panelizer_display_attribute
+name: 'Panelizer default display'
+type: panelizer_default_display
+description: ''

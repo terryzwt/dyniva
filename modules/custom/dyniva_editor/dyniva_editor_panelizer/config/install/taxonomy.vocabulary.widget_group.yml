@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Widget Group'
+vid: widget_group
+description: ''
+hierarchy: 0
+weight: 0

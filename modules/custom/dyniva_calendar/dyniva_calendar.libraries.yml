@@ -1,0 +1,7 @@
+calendar-page-style:
+  version: 2.x
+  css:
+    theme:
+      css/calendar-page.css: {}
+  js:
+    js/calendar-page.js: {}

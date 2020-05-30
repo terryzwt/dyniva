@@ -1,0 +1,10 @@
+force:
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/toastr.min.js: {}
+    js/force.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

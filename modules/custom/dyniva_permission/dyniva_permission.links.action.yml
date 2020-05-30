@@ -1,0 +1,10 @@
+dyniva_permission.assign_role:
+  route_name: dyniva_permission.assign_role
+  title: 'Assign Role'
+  appears_on:
+    - view.user_manage_roles.page_list
+dyniva_permission.assign_common_role:
+  route_name: dyniva_permission.assign_common_role
+  title: 'Assign Common Role'
+  appears_on:
+    - view.user_manage_roles.page_list

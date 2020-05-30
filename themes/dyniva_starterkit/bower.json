@@ -1,0 +1,17 @@
+{
+  "name": "davyinui",
+  "authors": [
+    "魏巍 <hello@wenroo.com>"
+  ],
+  "description": "Davyin UI Scripts Plugins",
+  "main": "",
+  "keywords": [
+    "davyin",
+    "ui"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+  }
+}

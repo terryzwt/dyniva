@@ -1,0 +1,5 @@
+services:
+  dyniva_editor_panelizer.route_subscriber:
+    class: Drupal\dyniva_editor_panelizer\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }

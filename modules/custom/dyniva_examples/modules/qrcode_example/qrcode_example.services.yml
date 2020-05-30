@@ -1,0 +1,4 @@
+services:
+  qrcode_example.toolbar:
+    class: Drupal\qrcode_example\Toolbar
+    arguments: ['@current_user']

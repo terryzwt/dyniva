@@ -1,0 +1,7 @@
+dyniva_migrate.file_migration:
+  path: '/manage/migrate'
+  defaults:
+    _form: '\Drupal\dyniva_migrate\Form\FileMigrateForm'
+    _title: 'Site Migrate'
+  requirements:
+    _permission: 'manage dyniva migrate'
