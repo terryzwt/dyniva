@@ -39,7 +39,7 @@
 		"drupal/migrate_plus": "*",
 		"drupal/migrate_source_csv": "*",
 		"drupal/migrate_spreadsheet": "*",
-		"drupal/migrate_tools": "*",
+		"drupal/migrate_tools": "^2.0",
 		"drupal/select_or_other": "*",
 		"drupal/shs": "*",
 		"drupal/tour_ui": "*",
