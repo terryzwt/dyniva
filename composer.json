@@ -8,10 +8,10 @@
 	"require": {
 		"drupal-composer/drupal-scaffold": "^2.0.0",
 		"cweagans/composer-patches": "^1.6",
-		"acquia/lightning": "~4.0.4",
+		"acquia/lightning": "~4.1.5",
 		"drupal/swiftmailer": "*",
-		"drupal/conflict": "*",
-		"drupal/multiversion": "^1.0-beta18",
+		"drupal/conflict": "^2.0.0",
+		"drupal/multiversion": "^1.0.0",
 		"drupal/key_value": "*",
 		"drupal/replication": "*",
 		"drupal/workspace": "*",
@@ -73,7 +73,7 @@
 		"woohoolabs/yang": "^1.4",
 		"drupal/context": "^4.0@beta",
 		"drupal/user_default_page": "^2.0",
-		"drupal/search_api_solr": "^2.0",
+		"drupal/search_api_solr": "^4.1.4",
 		"drupal/facets": "^1.2",
 		"drupal/search_api_autocomplete": "^1.0",
 		"drupal/message_notify": "^1.0@beta",
@@ -115,7 +115,7 @@
 		"drupal/matomo": "^1.9",
 		"drupal/matomo_reporting_api": "^1.0@alpha",
 		"drupal/entity_theme_engine": "^1.5",
-		"drupal/ace_editor": "^1.1",
+		"drupal/ace_editor": "1.x-dev",
 		"ext-dom": "*",
 		"oomphinc/composer-installers-extender": "^1.1"
 	},
@@ -152,13 +152,13 @@
         "configure-tarball": "Davyin\\Dyniva\\Composer\\ConfigureLegacyProject::execute",
         "enable-asset-packagist": "Acquia\\Lightning\\Composer\\AssetPackagist::execute",
         "nuke": "rm -r -f docroot vendor",
-        "pull": "cp -R -f ./docroot/profiles/contrib/lightning/* .",
+        "pull": "cp -R -f ./docroot/profiles/contrib/dyniva/* .",
         "push": [
-            "rm -r -f ./docroot/profiles/contrib/lightning",
-            "mkdir -p ./docroot/profiles/contrib/lightning",
-            "@composer archive --file lightning",
-            "tar -x -f lightning.tar -C ./docroot/profiles/contrib/lightning",
-            "rm lightning.tar"
+            "rm -r -f ./docroot/profiles/contrib/dyniva",
+            "mkdir -p ./docroot/profiles/contrib/dyniva",
+            "@composer archive --file dyniva",
+            "tar -x -f dyniva.tar -C ./docroot/profiles/contrib/dyniva",
+            "rm dyniva.tar"
         ],
         "verify-patched-constraints": "Acquia\\Lightning\\Composer\\PatchedConstraint::execute"
 	},
@@ -189,7 +189,6 @@
 				"type:drupal-drush"
 			]
 		},
-		"patches-file": "composer.patches.json",
 		"enable-patching": "true"
 	}
-}
+docroot/profiles/contrib/lightning}
