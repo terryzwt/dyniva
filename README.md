@@ -8,6 +8,7 @@ dyniva是基于acquia公司的lightning发行版开发而来的Drupal发行版�
 1. 内容编辑流程
 1. 搜索增强
 1. 媒体增强
+1. SEO
 1. ... ...
 
 # 版本信息
