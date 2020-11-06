@@ -17,10 +17,8 @@ dyniva是基于acquia公司的lightning发行版开发而来的Drupal发行版�
 |3.0.x|5.0.x|9.0.x|layout builder|
 |2.0.x|4.1.x|8.8.x, 8.9.x|panelizer => layout builder|
 |1.2.x|4.0.x|8.8.x|layout builder|
-|1.0.x|3.4.x|8.8.x, 8.9.x|panelizer => layout builder|
-|1.0.x|3.3.x|8.7.x|
-|1.0.x|3.2.x|8.6.x|
-|1.0.x|3.1.x|8.5.x|
+|1.1.x|3.4.x|8.8.x, 8.9.x|panelizer => layout builder|
+|1.0.x|3.3.x|8.7.x|panelizer|
 
 [lighting 版本说明](https://github.com/acquia/lightning/wiki/Lightning-3.x-vs-4.x)
 

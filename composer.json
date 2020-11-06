@@ -6,8 +6,7 @@
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"require": {
-		"drupal-composer/drupal-scaffold": "^2.0.0",
-		"cweagans/composer-patches": "^1.6",
+		"cweagans/composer-patches": "^1.7",
 		"acquia/lightning": "~4.1.5",
 		"drupal/swiftmailer": "^2.0",
 		"drupal/conflict": "^2.0.0",
@@ -66,7 +65,6 @@
 		"drupal/context": "^4.0@beta",
 		"drupal/user_default_page": "^2.0",
 		"drupal/search_api_solr": "^4.1.4",
-		"drupal/facets": "^1.2",
 		"drupal/search_api_autocomplete": "^1.0",
 		"drupal/message_notify": "^1.0@beta",
 		"drupal/message_subscribe": "^1.0@beta",
@@ -106,7 +104,6 @@
 		"drupal/matomo": "^1.9",
 		"drupal/matomo_reporting_api": "^1.0@alpha",
 		"drupal/entity_theme_engine": "^1.5",
-		"drupal/ace_editor": "1.x-dev",
 		"oyejorge/less.php": "v1.7.0.14",
 		"phpoffice/phpspreadsheet": "^1.2",
 		"overtrue/wechat": "^4.1",
@@ -114,7 +111,8 @@
 		"ext-dom": "*",
 		"php-http/guzzle6-adapter": "^1.1",
 		"woohoolabs/yang": "^1.4",
-		"oomphinc/composer-installers-extender": "^1.1"
+		"oomphinc/composer-installers-extender": "^2.0",
+		"drupal/facets": "^1.6"
 	},
     "autoload": {
         "psr-4": {
@@ -186,6 +184,11 @@
 				"type:drupal-drush"
 			]
 		},
-		"enable-patching": "true"
+		"enable-patching": "true",
+        "patches": {
+            "drupal/ace_editor": {
+                "drupal-library-installer-plugin not compatible with composer 2": "https://www.drupal.org/files/issues/2020-10-27/3179273-remove-asset-packagist-as-requirement.patch"
+            }
+        }
 	}
 }
