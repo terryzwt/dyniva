@@ -57,7 +57,7 @@
 		"drupal/site_settings": "^1.12",
 		"drupal/devel": "^2.0",
 		"drupal/baidu_analytics": "1.x-dev",
-		"drupal/google_analytics": "^2.2",
+		"drupal/google_analytics": "^3.1",
 		"drupal/cas_attributes": "^1.0-beta1",
 		"drupal/password_policy": "^3.0@alpha",
 		"drupal/r4032login": "^1.0@beta",

@@ -48,7 +48,6 @@ install:
   - lightning_layout
   - lightning_media
   - lightning_workflow
-  - lightning_contact_form
   - lightning_page
   - lightning_roles
   - lightning_search
