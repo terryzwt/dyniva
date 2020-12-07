@@ -124,6 +124,10 @@
         ]
     },
 	"repositories": {
+        "dyniva-baidu": {
+            "type": "path",
+            "url": "modules/custom/dyniva_baidu"
+        },
 		"drupal": {
 			"type": "composer",
 			"url": "https://packages.drupal.org/8"
@@ -131,11 +135,7 @@
 		"assets": {
 			"type": "composer",
 			"url": "https://asset-packagist.org"
-		},
-        "dyniva-baidu": {
-            "type": "path",
-            "url": "modules/custom/dyniva_baidu"
-        }
+		}
 	},
 	"scripts": {
          "post-install-cmd": [
