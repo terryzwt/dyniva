@@ -9,6 +9,7 @@
 		"cweagans/composer-patches": "^1.7",
 		"acquia/lightning": "~4.1.5",
 		"davyin/dyniva_baidu": "*",
+		"davyin/dyniva_event": "*",
 		"drupal/swiftmailer": "^2.0",
 		"drupal/conflict": "^2.0.0",
 		"drupal/multiversion": "^1.0.0",
@@ -128,6 +129,10 @@
             "type": "path",
             "url": "modules/custom/dyniva_baidu"
         },
+        "dyniva-event": {
+            "type": "path",
+            "url": "modules/custom/dyniva_event"
+        },
 		"drupal": {
 			"type": "composer",
 			"url": "https://packages.drupal.org/8"
@@ -173,6 +178,9 @@
 			],
 			"docroot/modules/contrib/{$name}": [
 				"type:drupal-module"
+			],
+			"docroot/modules/custom/{$name}": [
+				"type:drupal-custom-module"
 			],
 			"docroot/profiles/contrib/{$name}": [
 				"type:drupal-profile"
