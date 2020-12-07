@@ -1,0 +1,14 @@
+{
+  "name": "davyin/dyniva_baidux",
+  "description": "Simple and beautiful theme for drupal.",
+  "type": "drupal-custom-module",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/davyin-co/dyniva_ui",
+  "require": {
+    "drupal/core": "^8.6.0"
+  },
+  "authors": [{
+    "name": "Wei wei",
+    "email": "wwei@davyin.com"
+  }]
+}

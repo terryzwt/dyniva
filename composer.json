@@ -131,11 +131,10 @@
 			"type": "composer",
 			"url": "https://asset-packagist.org"
 		},
-		"dev": {
-			"type": "github",
-			"url": "https://github.com/acquia/lightning-dev",
-			"no-api": true
-		}
+        {
+            "type": "path",
+            "url": "modules/custom/dyniva_baidu/"
+        },
 	},
 	"scripts": {
          "post-install-cmd": [
