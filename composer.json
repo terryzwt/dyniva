@@ -8,7 +8,7 @@
 	"require": {
 		"cweagans/composer-patches": "^1.7",
 		"acquia/lightning": "~4.1.5",
-		"davyin/dyniva_baidux": "*",
+		"davyin/dyniva_baidu": "*",
 		"drupal/swiftmailer": "^2.0",
 		"drupal/conflict": "^2.0.0",
 		"drupal/multiversion": "^1.0.0",
