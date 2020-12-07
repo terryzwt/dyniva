@@ -132,7 +132,7 @@
 			"type": "composer",
 			"url": "https://asset-packagist.org"
 		},
-        {
+        "dyniva-baidu": {
             "type": "path",
             "url": "modules/custom/dyniva_baidu/"
         }
